@@ -9,7 +9,7 @@ class MyInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
-      aspectRatio: 1.23,
+      aspectRatio: 1.1,
       child: Container(
         color: secondaryColor,
         child: Column(
@@ -17,12 +17,12 @@ class MyInfo extends StatelessWidget {
           children: <Widget>[
             Spacer(flex: 2,),
             CircleAvatar(
-              radius: 50,
+              radius: 100,
               backgroundImage: AssetImage("assets/images/my_picture.jpg"),
             ),
             Spacer(),
             Text(
-              "Donald KANTI", 
+              "Donald KANTI Alias shellking4", 
               style: Theme.of(context).textTheme.subtitle2,
             ),
             Text(

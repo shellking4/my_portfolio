@@ -22,8 +22,15 @@ class Skills extends StatelessWidget {
           children: <Widget>[
           Expanded(
             child: AnimatedCircularProgressIndicator(
-              label: "Django",
+              label: "FastAPI",
               percentage: 0.7,
+            ),
+          ),
+          SizedBox(width: defaultPadding),
+          Expanded(
+            child: AnimatedCircularProgressIndicator(
+              label: "NestJS",
+              percentage: 0.8,
             ),
           ),
           SizedBox(width: defaultPadding),
@@ -36,8 +43,8 @@ class Skills extends StatelessWidget {
           SizedBox(width: defaultPadding),
           Expanded(
             child: AnimatedCircularProgressIndicator(
-              label: "NestJS",
-              percentage: 0.8,
+              label: "Angular",
+              percentage: 0.7,
             ),
           ),
         ],
