@@ -22,7 +22,7 @@ class MyInfo extends StatelessWidget {
             ),
             Spacer(),
             Text(
-              "Donald KANTI Alias shellking4", 
+              "Donald KANTI aka shellking4", 
               style: Theme.of(context).textTheme.subtitle2,
             ),
             Text(
