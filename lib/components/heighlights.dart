@@ -16,26 +16,26 @@ class HighLightsInfo extends StatelessWidget {
       child: Responsive.isMobileLarge(context)
           ? Column(
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    HeighLight(
-                      counter: AnimatedCounter(
-                        value: 119,
-                        text: "K+",
-                      ),
-                      label: "Subscribers",
-                    ),
-                    HeighLight(
-                      counter: AnimatedCounter(
-                        value: 40,
-                        text: "+",
-                      ),
-                      label: "Videos",
-                    ),
-                  ],
-                ),
-                const SizedBox(height: defaultPadding),
+                // Row(
+                //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                //   children: [
+                //     HeighLight(
+                //       counter: AnimatedCounter(
+                //         value: 119,
+                //         text: "K+",
+                //       ),
+                //       label: "Subscribers",
+                //     ),
+                //     HeighLight(
+                //       counter: AnimatedCounter(
+                //         value: 40,
+                //         text: "+",
+                //       ),
+                //       label: "Videos",
+                //     ),
+                //   ],
+                // ),
+                // const SizedBox(height: defaultPadding),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -48,46 +48,46 @@ class HighLightsInfo extends StatelessWidget {
                     ),
                     HeighLight(
                       counter: AnimatedCounter(
-                        value: 13,
-                        text: "K+",
+                        value: 10,
+                        text: "+",
                       ),
-                      label: "Stars",
+                      label: "Github Followers",
                     ),
                   ],
                 ),
               ],
             )
           : Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
+                // HeighLight(
+                //   counter: AnimatedCounter(
+                //     value: 119,
+                //     text: "K+",
+                //   ),
+                //   label: "Subscribers",
+                // ),
+                // HeighLight(
+                //   counter: AnimatedCounter(
+                //     value: 40,
+                //     text: "+",
+                //   ),
+                //   label: "Videos",
+                // ),
                 HeighLight(
-                  counter: AnimatedCounter(
-                    value: 119,
-                    text: "K+",
-                  ),
-                  label: "Subscribers",
-                ),
-                HeighLight(
-                  counter: AnimatedCounter(
-                    value: 40,
-                    text: "+",
-                  ),
-                  label: "Videos",
-                ),
-                HeighLight(
-                  counter: AnimatedCounter(
-                    value: 30,
-                    text: "+",
-                  ),
-                  label: "GitHub Projects",
-                ),
-                HeighLight(
-                  counter: AnimatedCounter(
-                    value: 13,
-                    text: "K+",
-                  ),
-                  label: "Stars",
-                ),
+                      counter: AnimatedCounter(
+                        value: 30,
+                        text: "+",
+                      ),
+                      label: "GitHub Projects",
+                    ),
+                    HeighLight(
+                      counter: AnimatedCounter(
+                        value: 10,
+                        text: "+",
+                      ),
+                      label: "Github Followers",
+                    ),
               ],
             ),
     );

@@ -22,11 +22,11 @@ class MyInfo extends StatelessWidget {
             ),
             Spacer(),
             Text(
-              "Donald KANTI aka shellking4", 
+              "Donald KANTI aka Shellking4", 
               style: Theme.of(context).textTheme.subtitle2,
             ),
             Text(
-              "Developper Advocate And Founder Of Syslabs LLC",
+              "Developper Advocate And Founder Of SYSLABS, LLC",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.w200,

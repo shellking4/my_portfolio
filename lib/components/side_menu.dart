@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_web_libraries_in_flutter
+// ignore_for_file: avoid_web_libraries_in_flutter, constant_identifier_names
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -93,13 +93,13 @@ class SideMenu extends StatelessWidget {
     );
   }
 
-  void downloadFile(String url) {
+  static void downloadFile(String url) {
     html.AnchorElement anchorElement = html.AnchorElement(href: url);
     anchorElement.download = url;
     anchorElement.click();
   }
 
-  void launchURL(String url) async {
+  static void launchURL(String url) async {
     if (!await launch(url)) throw 'Could not launch $url';
   }
 }

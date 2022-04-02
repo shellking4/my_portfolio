@@ -34,13 +34,13 @@ class ProjectCard extends StatelessWidget {
             style: TextStyle(height: 1.5),
           ),
           Spacer(),
-          TextButton(
-            onPressed: () {},
-            child: Text(
-              "Read More >>",
-              style: TextStyle(color: primaryColor),
-            ),
-          ),
+          // TextButton(
+          //   onPressed: () {},
+          //   child: Text(
+          //     "Read More >>",
+          //     style: TextStyle(color: primaryColor),
+          //   ),
+          // ),
         ],
       ),
     );

@@ -1,6 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/components/responsive.dart';
+import 'package:my_portfolio/components/side_menu.dart';
 import 'package:my_portfolio/utils/constants.dart';
 
 class HomeBanner extends StatelessWidget {
@@ -27,7 +28,7 @@ class HomeBanner extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Discover my Amazing \nArt Space!",
+                  "Discover Some Of My Works",
                   style: Responsive.isDesktop(context)
                       ? Theme.of(context).textTheme.headline3!.copyWith(
                             fontWeight: FontWeight.bold,
@@ -44,7 +45,9 @@ class HomeBanner extends StatelessWidget {
                 SizedBox(height: defaultPadding),
                 if (!Responsive.isMobileLarge(context))
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      SideMenu.downloadFile("assets/documents/resume.pdf");
+                    },
                     style: TextButton.styleFrom(
                       padding: EdgeInsets.symmetric(
                           horizontal: defaultPadding * 2,
@@ -52,7 +55,7 @@ class HomeBanner extends StatelessWidget {
                       backgroundColor: primaryColor,
                     ),
                     child: Text(
-                      "EXPLORE NOW",
+                      "DOWNLOAD RESUME NOW",
                       style: TextStyle(color: darkColor),
                     ),
                   ),
@@ -78,16 +81,16 @@ class MyBuildAnimatedText extends StatelessWidget {
       maxLines: 1,
       child: Row(
         children: [
-          if (!Responsive.isMobileLarge(context)) FlutterCodedText(),
+          if (!Responsive.isMobileLarge(context)) CodeText(),
           if (!Responsive.isMobileLarge(context))
             SizedBox(width: defaultPadding / 2),
-          Text("I build "),
+          Text("I built "),
           Responsive.isMobile(context)
               ? Expanded(child: AnimatedText())
               : AnimatedText(),
           if (!Responsive.isMobileLarge(context))
             SizedBox(width: defaultPadding / 2),
-          if (!Responsive.isMobileLarge(context)) FlutterCodedText(),
+          if (!Responsive.isMobileLarge(context)) CodeText(),
         ],
       ),
     );
@@ -104,15 +107,31 @@ class AnimatedText extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          "responsive web and mobile app.",
+          "FastAPI restful apis",
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "complete e-Commerce app UI.",
+          "NestJS restful apis",
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "Chat app with dark and light theme.",
+          "Django Rest Framework powered resful apis",
+          speed: Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          "Angular web apps",
+          speed: Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          "Flutter mobile and web apps",
+          speed: Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          "Compotché, an online test platform",
+          speed: Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          "Adécko, a recruitment platform",
           speed: Duration(milliseconds: 60),
         ),
       ],
@@ -120,8 +139,8 @@ class AnimatedText extends StatelessWidget {
   }
 }
 
-class FlutterCodedText extends StatelessWidget {
-  const FlutterCodedText({
+class CodeText extends StatelessWidget {
+  const CodeText({
     Key? key,
   }) : super(key: key);
 
@@ -132,7 +151,7 @@ class FlutterCodedText extends StatelessWidget {
         text: "<",
         children: [
           TextSpan(
-            text: "flutter",
+            text: "code",
             style: TextStyle(color: primaryColor),
           ),
           TextSpan(text: ">"),

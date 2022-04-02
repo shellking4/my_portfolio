@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 class Recommendation {
   final String? name, source, text;
 
@@ -6,27 +8,23 @@ class Recommendation {
 
 final List<Recommendation> demo_recommendations = [
   Recommendation(
-    name: "Kolapo Obanewa",
+    name: "Harris O'Connor",
     source: "Linkedin",
-    text:
-        "I have had the pleasure of working with Anwar on two flutter projects and what strikes me the most about his work is his ability to write clean and reusable codes with best practices. He is hardworking and makes it so easy to transcribe ideas into beautiful and testable flutter apps. He is a Flutter/Dart gem and has my highest recommendation",
+    text: "What strikes me the most about Shellking4's work is his ability to write clean and reusable codes with best practices. He has my highest recommendation.",
   ),
   Recommendation(
-    name: "Reza Shahbazi",
+    name: "Olatoundji AGBAHOUNGBA",
     source: "Linkedin",
-    text:
-        "Abu is great asset for any organization. It's a true pleasure working with him at TakeIn. His flutter skill is amazing as well as his professionalism and being a good team player. Abu's problem solving skill is also one of his great skills.",
+    text: "Shellking is great asset for any organization. His FastAPI and NestJS skills are amazing as well as his professionalism.",
   ),
   Recommendation(
-    name: "Diadem",
-    source: "YouTube",
-    text:
-        "I like your way you doing your project and you taught us. After I watch this I like and hit the subscribe button and then watch your video playlist one by one!! Within three hours, I learned a lot! I share your channel in my college WhatsApp group!",
+    name: "Cyprien ASSOU",
+    source: "Shopify Store Owner",
+    text: "I like the way you're doing your project and you taught us. What is really amazing by far is your speed on the keyboard :)",
   ),
   Recommendation(
-    name: "Roshan Shetty",
-    source: "YouTube",
-    text:
-        "Very straightforward, professional and also the best flutter videos in the youtube! It will be great if you add some comments to your steps with 0.5 seconds pause before implementing this step. By meaning of steps, I mean not the basic, but structural steps, like 10-20 steps per video. However, thank you very much!",
+    name: "Rohan Gurshen",
+    source: "Github",
+    text: "Very straightforward, professional and also one of the best fullstack developper I've ever met.  It will be great pleasure to work with you one of these days !",
   ),
 ];
