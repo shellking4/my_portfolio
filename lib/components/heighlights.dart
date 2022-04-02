@@ -16,26 +16,6 @@ class HighLightsInfo extends StatelessWidget {
       child: Responsive.isMobileLarge(context)
           ? Column(
               children: [
-                // Row(
-                //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                //   children: [
-                //     HeighLight(
-                //       counter: AnimatedCounter(
-                //         value: 119,
-                //         text: "K+",
-                //       ),
-                //       label: "Subscribers",
-                //     ),
-                //     HeighLight(
-                //       counter: AnimatedCounter(
-                //         value: 40,
-                //         text: "+",
-                //       ),
-                //       label: "Videos",
-                //     ),
-                //   ],
-                // ),
-                // const SizedBox(height: defaultPadding),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -60,20 +40,6 @@ class HighLightsInfo extends StatelessWidget {
           : Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                // HeighLight(
-                //   counter: AnimatedCounter(
-                //     value: 119,
-                //     text: "K+",
-                //   ),
-                //   label: "Subscribers",
-                // ),
-                // HeighLight(
-                //   counter: AnimatedCounter(
-                //     value: 40,
-                //     text: "+",
-                //   ),
-                //   label: "Videos",
-                // ),
                 HeighLight(
                       counter: AnimatedCounter(
                         value: 30,
