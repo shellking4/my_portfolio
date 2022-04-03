@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:my_portfolio/components/area_info.dart';
 import 'package:my_portfolio/components/coding.dart';
 import 'package:my_portfolio/components/knowledges.dart';
@@ -48,14 +49,22 @@ class SideMenu extends StatelessWidget {
                   },
                   child: Row(
                     children: [
-                      Text("DOWNLOAD RESUME",
+                      Text("VIEW RESUME",
                           style: TextStyle(
                               color: Theme.of(context)
                                   .textTheme
                                   .bodyText1!
                                   .color)),
                       SizedBox(width: defaultPadding / 2),
-                      SvgPicture.asset("assets/icons/download.svg")
+                      Icon(
+                        FontAwesomeIcons.eye,
+                        color: Theme.of(context)
+                          .textTheme
+                          .bodyText1!
+                          .color,
+                        size: 12,
+                      )
+                      // SvgPicture.asset("assets/icons/download.svg")
                     ],
                   )),
               Container(
