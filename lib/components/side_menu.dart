@@ -55,7 +55,7 @@ class SideMenu extends StatelessWidget {
                                   .bodyText1!
                                   .color)),
                       SizedBox(width: defaultPadding / 2),
-                      SvgPicture.asset("assets/icons/download.svg")
+                      SvgPicture.asset("assets/assets/icons/download.svg")
                     ],
                   )),
               Container(
@@ -68,19 +68,19 @@ class SideMenu extends StatelessWidget {
                       onPressed: () {
                         launchURL(linkedin_profile);
                       },
-                      icon: SvgPicture.asset("assets/icons/linkedin.svg"),
+                      icon: SvgPicture.asset("assets/assets/icons/linkedin.svg"),
                     ),
                     IconButton(
                       onPressed: () {
                         launchURL(github_profile);
                       },
-                      icon: SvgPicture.asset("assets/icons/github.svg"),
+                      icon: SvgPicture.asset("assets/assets/icons/github.svg"),
                     ),
                     IconButton(
                       onPressed: () {
                         launchURL(bitbucket_profile);
                       },
-                      icon: SvgPicture.asset("assets/icons/bitbucket.svg"),
+                      icon: SvgPicture.asset("assets/assets/icons/bitbucket.svg"),
                     ),
                     Spacer(),
                   ],
