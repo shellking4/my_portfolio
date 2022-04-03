@@ -16,7 +16,9 @@ class AboutMe extends StatelessWidget {
       Text(
         "I am a young developper. A little bit shy but not much 🤓 Most of all, I am passionate about web and mobile technologies, resful and graphql apis, microservices and everything related to the cloud ☁️. I strongly 💪 will to help and impact the world 🌍 with little I know and gain more experiences.",
         textAlign: TextAlign.justify,
-      )
+      ),
+      SizedBox(height: defaultPadding / 2),
+      Divider(),
     ]);
   }
 }
