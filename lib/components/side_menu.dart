@@ -21,7 +21,7 @@ class SideMenu extends StatelessWidget {
 
   static const String github_profile = 'https://github.com/shellking4';
   static const String linkedin_profile =
-      "https://www.linkedin.com/in/donald-kanti";
+      "https://www.linkedin.com/in/donald-kanti/";
   static const String bitbucket_profile = "https://bitbucket.org/shellking4/";
 
   @override
