@@ -44,20 +44,40 @@ class HomeBanner extends StatelessWidget {
                 MyBuildAnimatedText(),
                 SizedBox(height: defaultPadding),
                 if (!Responsive.isMobileLarge(context))
-                  ElevatedButton(
-                    onPressed: () {
-                      SideMenu.launchURL("https://mega.nz/file/IwkC3CKQ#b-jRmw6tfNS7hqPm3kCZO9zQBb05mfOl6uiFCGUnnsI");
-                    },
-                    style: TextButton.styleFrom(
-                      padding: EdgeInsets.symmetric(
-                          horizontal: defaultPadding * 2,
-                          vertical: defaultPadding),
-                      backgroundColor: primaryColor,
-                    ),
-                    child: Text(
-                      "VIEW RESUME NOW",
-                      style: TextStyle(color: darkColor),
-                    ),
+                  Row(
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          SideMenu.launchURL("https://mega.nz/file/IwkC3CKQ#b-jRmw6tfNS7hqPm3kCZO9zQBb05mfOl6uiFCGUnnsI");
+                        },
+                        style: TextButton.styleFrom(
+                          padding: EdgeInsets.symmetric(
+                              horizontal: defaultPadding * 2,
+                              vertical: defaultPadding),
+                          backgroundColor: primaryColor,
+                        ),
+                        child: Text(
+                          "VIEW RESUME NOW",
+                          style: TextStyle(color: darkColor),
+                        ),
+                      ),
+                      SizedBox(width: defaultPadding,),
+                      ElevatedButton(
+                        onPressed: () {
+                          SideMenu.launchURL(SideMenu.github_profile);
+                        },
+                        style: TextButton.styleFrom(
+                          padding: EdgeInsets.symmetric(
+                              horizontal: defaultPadding * 2,
+                              vertical: defaultPadding),
+                          backgroundColor: Colors.white,
+                        ),
+                        child: Text(
+                          "VISIT MY GITHUB NOW",
+                          style: TextStyle(color: darkColor),
+                        ),
+                      ),
+                   ],
                   ),
               ],
             ),
