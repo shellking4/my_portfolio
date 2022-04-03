@@ -17,7 +17,7 @@ class HighLightsInfo extends StatelessWidget {
           ? Column(
               children: [
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     HeighLight(
                       counter: AnimatedCounter(
