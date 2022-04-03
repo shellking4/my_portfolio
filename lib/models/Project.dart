@@ -8,7 +8,7 @@ class Project {
 
 List<Project> demo_projects = [
   Project(
-    title: "Compotche Web App - Angular",
+    title: "Compotché Web App - Angular",
     description: "Built with Angular 13. The admin space for the Compotche Plaform. ",
   ),
   Project(
@@ -16,7 +16,7 @@ List<Project> demo_projects = [
     description: "Built with Laravel 8. I built the web app to manage the songs and works of a beninese gospel band. You'll find it at https://bit.ly/3mguKwL",
   ),
   Project(
-    title: "Compotche Mobile App - Flutter",
+    title: "Compotché Mobile App - Flutter",
     description: "The mobile UI for the online test platform I build",
   ),
 ];

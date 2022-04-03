@@ -46,7 +46,7 @@ class HomeBanner extends StatelessWidget {
                 if (!Responsive.isMobileLarge(context))
                   ElevatedButton(
                     onPressed: () {
-                      SideMenu.downloadFile("assets/documents/resume.pdf");
+                      SideMenu.launchURL("https://mega.nz/file/IwkC3CKQ#b-jRmw6tfNS7hqPm3kCZO9zQBb05mfOl6uiFCGUnnsI");
                     },
                     style: TextButton.styleFrom(
                       padding: EdgeInsets.symmetric(
@@ -55,7 +55,7 @@ class HomeBanner extends StatelessWidget {
                       backgroundColor: primaryColor,
                     ),
                     child: Text(
-                      "DOWNLOAD RESUME NOW",
+                      "VIEW RESUME NOW",
                       style: TextStyle(color: darkColor),
                     ),
                   ),

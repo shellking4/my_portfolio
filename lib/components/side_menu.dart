@@ -44,11 +44,11 @@ class SideMenu extends StatelessWidget {
               SizedBox(height: defaultPadding / 2),
               TextButton(
                   onPressed: () {
-                    downloadFile("assets/documents/resume.pdf");
+                    launchURL("https://mega.nz/file/IwkC3CKQ#b-jRmw6tfNS7hqPm3kCZO9zQBb05mfOl6uiFCGUnnsI");
                   },
                   child: Row(
                     children: [
-                      Text("DOWNLOAD RESUME",
+                      Text("VIEW RESUME",
                           style: TextStyle(
                               color: Theme.of(context)
                                   .textTheme
