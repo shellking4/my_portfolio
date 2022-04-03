@@ -21,7 +21,7 @@ class Knowledges extends StatelessWidget {
         KnowledgeText(text: "FastAPI, Python"),
         KnowledgeText(text: "NestJS, TypeScript"),
         KnowledgeText(text: "Flutter, Dart"),
-        KnowledgeText(text: "Angular, TypesScript"),
+        KnowledgeText(text: "Angular, TypeScript"),
         KnowledgeText(text: "Git, Github, Bitbucket"),
         KnowledgeText(text: "Linux, Bash"),
         KnowledgeText(text: "DevOps, Docker"),
@@ -31,3 +31,4 @@ class Knowledges extends StatelessWidget {
     );
   }
 }
+

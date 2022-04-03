@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:my_portfolio/components/about_me.dart';
 import 'package:my_portfolio/components/area_info.dart';
 import 'package:my_portfolio/components/coding.dart';
 import 'package:my_portfolio/components/knowledges.dart';
@@ -32,6 +33,10 @@ class SideMenu extends StatelessWidget {
           child: SingleChildScrollView(
             padding: EdgeInsets.all(defaultPadding),
             child: Column(children: <Widget>[
+              AboutMe(),
+              SizedBox(
+                height: defaultPadding,
+              ),
               AreaInfo(title: "Residence", text: "Benin"),
               AreaInfo(title: "City", text: "Cotonou"),
               AreaInfo(title: "Age", text: "21"),

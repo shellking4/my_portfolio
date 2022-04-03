@@ -9,7 +9,7 @@ class Project {
 List<Project> demo_projects = [
   Project(
     title: "Compotché Web App - Angular",
-    description: "Built with Angular 13. The admin space for the Compotche Plaform. ",
+    description: "Built with Angular 13. I built this angular web app. It serves as the admin space for the Compotché Plaform. It can be used by teachers and so on",
   ),
   Project(
     title: "Songs management web platform  for a gospel band - Laravel",
@@ -17,6 +17,6 @@ List<Project> demo_projects = [
   ),
   Project(
     title: "Compotché Mobile App - Flutter",
-    description: "The mobile UI for the online test platform I build",
+    description: "The mobile UI for the online test platform. It has been built using flutter ! It serves as the test passing user interface for the Compotché Plaform.",
   ),
 ];
