@@ -26,7 +26,7 @@ class MainScreen extends StatelessWidget {
                 ),
               ),
             ),
-      drawer: SideMenu(),
+      drawer: !Responsive.isDesktop(context) ? SideMenu() : null,
       body: Center(
         child: Container(
           constraints: BoxConstraints(maxWidth: maxWidth),
