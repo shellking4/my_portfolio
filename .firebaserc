@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "portfolio-c7593",
+    "prod": "portfolio-c7593"
+  },
+  "targets": {},
+  "etags": {}
+}

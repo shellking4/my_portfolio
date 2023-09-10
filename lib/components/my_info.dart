@@ -18,7 +18,7 @@ class MyInfo extends StatelessWidget {
             Spacer(flex: 2,),
             CircleAvatar(
               radius: 100,
-              backgroundImage: AssetImage("assets/images/my_picture.jpg"),
+              backgroundImage: AssetImage("assets/images/profile-pic.png"),
             ),
             Spacer(),
             Text(
@@ -26,7 +26,7 @@ class MyInfo extends StatelessWidget {
               style: Theme.of(context).textTheme.subtitle2,
             ),
             Text(
-              "Developper Advocate And Founder Of SYSLABS, LLC",
+              "Developer Advocate And Founder @ Metatronicx",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.w200,
