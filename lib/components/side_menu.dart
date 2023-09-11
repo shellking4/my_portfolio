@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:my_portfolio/components/about_me.dart';
 import 'package:my_portfolio/components/area_info.dart';
 import 'package:my_portfolio/components/coding.dart';
@@ -39,7 +38,7 @@ class SideMenu extends StatelessWidget {
               ),
               AreaInfo(title: "Residence", text: "Benin"),
               AreaInfo(title: "City", text: "Cotonou"),
-              AreaInfo(title: "Age", text: "21"),
+              // AreaInfo(title: "Age", text: "21"),
               Skills(),
               SizedBox(
                 height: defaultPadding,
@@ -50,11 +49,11 @@ class SideMenu extends StatelessWidget {
               SizedBox(height: defaultPadding / 2),
               TextButton(
                   onPressed: () {
-                    launchURL("https://mega.nz/file/IwkC3CKQ#b-jRmw6tfNS7hqPm3kCZO9zQBb05mfOl6uiFCGUnnsI");
+                    launchURL("https://drive.google.com/file/d/1OI7crBHcAup26eucw1HTYhHd-pg5_HtZ/view?usp=sharing");
                   },
                   child: Row(
                     children: [
-                      Text("DOWNLOAD RESUME",
+                      Text("DOWNLOAD MY RESUME",
                           style: TextStyle(
                               color: Theme.of(context)
                                   .textTheme

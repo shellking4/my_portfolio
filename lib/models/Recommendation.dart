@@ -13,9 +13,9 @@ final List<Recommendation> demo_recommendations = [
     text: "What strikes me the most about Shellking4's work is his ability to write clean and reusable codes with best practices. He has my highest recommendation.",
   ),
   Recommendation(
-    name: "Olatoundji AGBAHOUNGBA",
+    name: "Ezéchiel Amen AGBLA",
     source: "Linkedin",
-    text: "Shellking is great asset for any organization. His FastAPI and NestJS skills are amazing as well as his professionalism.",
+    text: "Good first article Donald Kanti ! Continue to share your knowledges 😃",
   ),
   Recommendation(
     name: "Cyprien ASSOU",
