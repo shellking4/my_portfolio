@@ -104,7 +104,7 @@ class MyBuildAnimatedText extends StatelessWidget {
           if (!Responsive.isMobileLarge(context)) CodeText(),
           if (!Responsive.isMobileLarge(context))
             SizedBox(width: defaultPadding / 2),
-          Text("I built "),
+          Text("I've built "),
           Responsive.isMobile(context)
               ? Expanded(child: AnimatedText())
               : AnimatedText(),
