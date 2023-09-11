@@ -48,7 +48,7 @@ class HomeBanner extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          SideMenu.launchURL("https://mega.nz/file/IwkC3CKQ#b-jRmw6tfNS7hqPm3kCZO9zQBb05mfOl6uiFCGUnnsI");
+                          SideMenu.launchURL("https://drive.google.com/file/d/1OI7crBHcAup26eucw1HTYhHd-pg5_HtZ/view?usp=sharing");
                         },
                         style: TextButton.styleFrom(
                           padding: EdgeInsets.symmetric(
@@ -57,7 +57,7 @@ class HomeBanner extends StatelessWidget {
                           backgroundColor: primaryColor,
                         ),
                         child: Text(
-                          "VIEW RESUME NOW",
+                          "VIEW MY RESUME",
                           style: TextStyle(color: darkColor),
                         ),
                       ),
@@ -73,7 +73,7 @@ class HomeBanner extends StatelessWidget {
                           backgroundColor: Colors.white,
                         ),
                         child: Text(
-                          "VISIT MY GITHUB NOW",
+                          "VISIT MY GITHUB PROFILE",
                           style: TextStyle(color: darkColor),
                         ),
                       ),
