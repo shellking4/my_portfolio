@@ -18,7 +18,9 @@ class SideMenu extends StatelessWidget {
     Key? key,
   }) : super(key: key);
 
-  static const String github_profile = 'https://github.com/shellking4';
+  static const String github_profile = "https://github.com/shellking4";
+  static const String resume_link = "https://drive.google.com/file/d/1OI7crBHcAup26eucw1HTYhHd-pg5_HtZ/view?usp=sharing";
+  static const String blog_url = "https://www.metatronicx.io/blog";
   static const String linkedin_profile =
       "https://www.linkedin.com/in/donald-kanti/";
   static const String bitbucket_profile = "https://bitbucket.org/shellking4/";

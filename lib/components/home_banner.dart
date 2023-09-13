@@ -48,7 +48,7 @@ class HomeBanner extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          SideMenu.launchURL("https://drive.google.com/file/d/1OI7crBHcAup26eucw1HTYhHd-pg5_HtZ/view?usp=sharing");
+                          SideMenu.launchURL(SideMenu.resume_link);
                         },
                         style: TextButton.styleFrom(
                           padding: EdgeInsets.symmetric(
@@ -58,10 +58,14 @@ class HomeBanner extends StatelessWidget {
                         ),
                         child: Text(
                           "VIEW MY RESUME",
-                          style: TextStyle(color: darkColor),
+                          style: TextStyle(
+                              color: const Color.fromARGB(255, 8, 36, 30),
+                              fontWeight: FontWeight.w700),
                         ),
                       ),
-                      SizedBox(width: defaultPadding,),
+                      SizedBox(
+                        width: defaultPadding,
+                      ),
                       ElevatedButton(
                         onPressed: () {
                           SideMenu.launchURL(SideMenu.github_profile);
@@ -74,10 +78,30 @@ class HomeBanner extends StatelessWidget {
                         ),
                         child: Text(
                           "VISIT MY GITHUB PROFILE",
-                          style: TextStyle(color: darkColor),
+                          style: TextStyle(
+                              color: darkColor, fontWeight: FontWeight.w700),
                         ),
                       ),
-                   ],
+                      SizedBox(
+                        width: defaultPadding,
+                      ),
+                      ElevatedButton(
+                        onPressed: () {
+                          SideMenu.launchURL(SideMenu.blog_url);
+                        },
+                        style: TextButton.styleFrom(
+                          padding: EdgeInsets.symmetric(
+                              horizontal: defaultPadding * 2,
+                              vertical: defaultPadding),
+                          backgroundColor: Colors.teal,
+                        ),
+                        child: Text(
+                          "VISIT MY BLOG",
+                          style: TextStyle(
+                              color: Colors.white, fontWeight: FontWeight.w300),
+                        ),
+                      ),
+                    ],
                   ),
               ],
             ),
