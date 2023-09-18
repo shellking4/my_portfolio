@@ -32,7 +32,7 @@ class Coding extends StatelessWidget {
         percentage: 0.8,
       ),
       AnimatedLinearProgressIndicator(
-        label: "C++",
+        label: "Rust",
         percentage: 0.5,
       ),
       AnimatedLinearProgressIndicator(
