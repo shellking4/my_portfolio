@@ -59,7 +59,7 @@ class SideMenu extends StatelessWidget {
                           style: TextStyle(
                               color: Theme.of(context)
                                   .textTheme
-                                  .bodyText1!
+                                  .bodyLarge!
                                   .color)),
                       SizedBox(width: defaultPadding / 2),
                       SvgPicture.asset("assets/icons/download.svg")

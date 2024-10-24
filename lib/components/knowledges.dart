@@ -16,7 +16,7 @@ class Knowledges extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text("Knowledges",
-              style: Theme.of(context).textTheme.subtitle2),
+              style: Theme.of(context).textTheme.titleSmall),
         ),
         KnowledgeText(text: "FastAPI, Python"),
         KnowledgeText(text: "NestJS, TypeScript"),

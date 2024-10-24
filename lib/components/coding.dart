@@ -13,7 +13,7 @@ class Coding extends StatelessWidget {
       Divider(),
       Padding(
         padding: const EdgeInsets.symmetric(vertical: defaultPadding),
-        child: Text("Coding", style: Theme.of(context).textTheme.subtitle2),
+        child: Text("Coding", style: Theme.of(context).textTheme.titleSmall),
       ),
       AnimatedLinearProgressIndicator(
         label: "DART",
